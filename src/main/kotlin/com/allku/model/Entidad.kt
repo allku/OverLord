@@ -52,4 +52,8 @@ class Entidad : Serializable {
 
     @OneToMany(mappedBy = "entidad")
     var usuarios: Set<Usuario> = HashSet()
+
+    @OneToMany(mappedBy = "entidad")
+    var informacionEntidades: Set<InformacionEntidad> = HashSet()
+
 }

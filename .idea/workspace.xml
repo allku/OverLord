@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f6de27b8-b46c-4277-997c-490fc65dcd9a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/allku/model/Entidad.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/allku/model/Localidad.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/allku/model/Tipo.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/allku/model/InformacionEntidad.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.9/fileContent/fileContent.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.9/fileContent/fileContent.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.9/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.9/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.9/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.9/fileHashes/fileHashes.lock" afterDir="false" />
@@ -73,9 +71,7 @@
       <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/lookups/lookups.tab.values.s" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/lookups/lookups.tab.values.s" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/lookups/lookups.tab_i" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/lookups/lookups.tab_i" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/last-build.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/last-build.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/allku/model/Menu.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/allku/model/Menu.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/allku/model/Permiso.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/allku/model/Permiso.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/allku/model/Usuario.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/allku/model/Usuario.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/allku/model/Entidad.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/allku/model/Entidad.kt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -108,7 +104,7 @@
           <entry key="gradle" value="2" />
           <entry key="html" value="1" />
           <entry key="java" value="1" />
-          <entry key="kt" value="26" />
+          <entry key="kt" value="27" />
           <entry key="properties" value="1" />
         </counts>
       </usages-collector>
@@ -117,7 +113,7 @@
           <entry key="Groovy" value="2" />
           <entry key="HTML" value="1" />
           <entry key="JAVA" value="1" />
-          <entry key="Kotlin" value="26" />
+          <entry key="Kotlin" value="27" />
           <entry key="Properties" value="1" />
         </counts>
       </usages-collector>
@@ -125,7 +121,7 @@
         <counts>
           <entry key="gradle" value="20" />
           <entry key="html" value="41" />
-          <entry key="kt" value="1478" />
+          <entry key="kt" value="1594" />
           <entry key="properties" value="172" />
         </counts>
       </usages-collector>
@@ -133,7 +129,7 @@
         <counts>
           <entry key="Groovy" value="20" />
           <entry key="HTML" value="41" />
-          <entry key="Kotlin" value="1478" />
+          <entry key="Kotlin" value="1594" />
           <entry key="Properties" value="172" />
         </counts>
       </usages-collector>
@@ -145,17 +141,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/allku/model/Usuario.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="542">
-              <caret line="36" column="1" lean-forward="true" selection-start-line="5" selection-end-line="36" selection-end-column="1" />
+            <state relative-caret-position="454">
+              <caret line="33" selection-start-line="33" selection-end-line="35" selection-end-column="32" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/allku/model/Tipo.kt">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/allku/model/InformacionEntidad.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="17" column="46" selection-start-line="17" selection-start-column="46" selection-end-line="17" selection-end-column="46" />
+            <state relative-caret-position="454">
+              <caret line="27" column="34" selection-start-line="27" selection-start-column="34" selection-end-line="29" selection-end-column="34" />
               <folding>
                 <element signature="e#25#79#0" expanded="true" />
               </folding>
@@ -163,11 +159,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/allku/model/Entidad.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1056">
-              <caret line="48" selection-start-line="48" selection-end-line="50" selection-end-column="36" />
+            <state relative-caret-position="586">
+              <caret line="56" selection-start-line="56" selection-end-line="56" />
               <folding>
                 <element signature="e#25#79#0" expanded="true" />
               </folding>
@@ -192,8 +188,8 @@
         <option value="HTML File" />
         <option value="Kotlin Interface" />
         <option value="Class" />
-        <option value="Kotlin Class" />
         <option value="Kotlin File" />
+        <option value="Kotlin Class" />
       </list>
     </option>
   </component>
@@ -634,9 +630,10 @@
         <option value="$PROJECT_DIR$/src/main/kotlin/com/allku/model/Permiso.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/com/allku/model/Localidad.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/com/allku/model/Menu.kt" />
-        <option value="$PROJECT_DIR$/src/main/kotlin/com/allku/model/Entidad.kt" />
-        <option value="$PROJECT_DIR$/src/main/kotlin/com/allku/model/Usuario.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/com/allku/model/Tipo.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/com/allku/model/Usuario.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/com/allku/model/InformacionEntidad.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/com/allku/model/Entidad.kt" />
       </list>
     </option>
   </component>
@@ -822,17 +819,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/allku/model/Localidad.kt">
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/allku/model/Tipo.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="520">
-          <caret line="34" column="4" lean-forward="true" selection-start-line="34" selection-start-column="4" selection-end-line="35" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/allku/model/Entidad.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1056">
-          <caret line="48" selection-start-line="48" selection-end-line="50" selection-end-column="36" />
+        <state relative-caret-position="462">
+          <caret line="21" selection-start-line="21" selection-end-line="25" selection-end-column="31" />
           <folding>
             <element signature="e#25#79#0" expanded="true" />
           </folding>
@@ -841,15 +831,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/allku/model/Usuario.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="542">
-          <caret line="36" column="1" lean-forward="true" selection-start-line="5" selection-end-line="36" selection-end-column="1" />
+        <state relative-caret-position="454">
+          <caret line="33" selection-start-line="33" selection-end-line="35" selection-end-column="32" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/allku/model/Tipo.kt">
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/allku/model/Localidad.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="17" column="46" selection-start-line="17" selection-start-column="46" selection-end-line="17" selection-end-column="46" />
+        <state relative-caret-position="520">
+          <caret line="34" column="4" lean-forward="true" selection-start-line="34" selection-start-column="4" selection-end-line="35" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/allku/model/InformacionEntidad.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="454">
+          <caret line="27" column="34" selection-start-line="27" selection-start-column="34" selection-end-line="29" selection-end-column="34" />
+          <folding>
+            <element signature="e#25#79#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/allku/model/Entidad.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="586">
+          <caret line="56" selection-start-line="56" selection-end-line="56" />
           <folding>
             <element signature="e#25#79#0" expanded="true" />
           </folding>
