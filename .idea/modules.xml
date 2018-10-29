@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/overlord.iml" filepath="$PROJECT_DIR$/.idea/modules/overlord.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/overlord_main.iml" filepath="$PROJECT_DIR$/.idea/modules/overlord_main.iml" group="overlord" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/overlord_test.iml" filepath="$PROJECT_DIR$/.idea/modules/overlord_test.iml" group="overlord" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/OverLord.iml" filepath="$PROJECT_DIR$/.idea/modules/OverLord.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/OverLord_main.iml" filepath="$PROJECT_DIR$/.idea/modules/OverLord_main.iml" group="OverLord" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/OverLord_test.iml" filepath="$PROJECT_DIR$/.idea/modules/OverLord_test.iml" group="OverLord" />
     </modules>
   </component>
 </project>

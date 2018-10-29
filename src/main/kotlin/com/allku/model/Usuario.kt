@@ -21,7 +21,13 @@ class Usuario : Serializable {
     @Column(name = "tipo")
     var tipo : String? = null
 
+    @Column(name = "observacion")
+    var observacion : String? = null
+
     @Column(name = "estado")
     var estado : String? = null
+
+    @OneToMany(mappedBy = "usuario")
+    var permisos: Set<Permiso> = HashSet()
 
 }
