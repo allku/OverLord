@@ -1,11 +1,11 @@
-package com.overlord.main
+package com.allku
 
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication
 
 @SpringBootApplication
-class OverlordApplication
+class OverLordApplication
 
 fun main(args: Array<String>) {
-    runApplication<OverlordApplication>(*args)
+    runApplication<OverLordApplication>(*args)
 }

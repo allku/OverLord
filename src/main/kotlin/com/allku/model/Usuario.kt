@@ -1,0 +1,27 @@
+package com.allku.model
+
+import java.io.Serializable
+import javax.persistence.*
+
+@Entity
+@Table(name = "adm_usuarios")
+class Usuario : Serializable {
+
+    @Id
+    @GeneratedValue(strategy=GenerationType.IDENTITY)
+    @Column(name = "id")
+    var id : Long? = null
+
+    @Column(name = "usuario")
+    var usuario : String? = null
+
+    @Column(name = "clave")
+    var clave : String? = null
+
+    @Column(name = "tipo")
+    var tipo : String? = null
+
+    @Column(name = "estado")
+    var estado : String? = null
+
+}

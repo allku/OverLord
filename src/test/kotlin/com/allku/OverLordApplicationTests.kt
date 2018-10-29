@@ -1,4 +1,4 @@
-package com.overlord.overlord
+package com.allku
 
 import org.junit.Test
 import org.junit.runner.RunWith
@@ -7,7 +7,7 @@ import org.springframework.test.context.junit4.SpringRunner
 
 @RunWith(SpringRunner::class)
 @SpringBootTest
-class OverlordApplicationTests {
+class OverLordApplicationTests {
 
 	@Test
 	fun contextLoads() {
