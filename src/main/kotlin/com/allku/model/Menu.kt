@@ -29,14 +29,15 @@ class Menu : Serializable {
     @Column(name = "estado")
     var estado : String? = null
 
-    @ManyToOne(cascade = arrayOf(CascadeType.ALL))
+    @ManyToOne(cascade = [(CascadeType.ALL)])
     @JoinColumn(name = "id_menu")
     var tree_menu: Menu? = null
 
     @OneToMany(mappedBy = "tree_menu")
-    var subordinates: Set<Menu> = HashSet()
+    var menus: Set<Menu> = HashSet()
 
     @OneToMany(mappedBy = "menu")
     var menu: Set<Menu> = HashSet()
+
 }
 

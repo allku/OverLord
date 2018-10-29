@@ -28,11 +28,11 @@ class Permiso : Serializable {
     @Column(name = "observacion")
     var observacion : String? = null
 
-    @ManyToOne(cascade = arrayOf(CascadeType.ALL))
+    @ManyToOne(cascade = [(CascadeType.ALL)])
     @JoinColumn(name = "id_usuario")
     var usuario: Usuario? = null
 
-    @ManyToOne(cascade = arrayOf(CascadeType.ALL))
+    @ManyToOne(cascade = [(CascadeType.ALL)])
     @JoinColumn(name = "id_menu")
     var menu: Menu? = null
 

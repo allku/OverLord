@@ -18,6 +18,7 @@ class Usuario : Serializable {
     @Column(name = "clave")
     var clave : String? = null
 
+    // Derivada de la tabla adm_tipos
     @Column(name = "tipo")
     var tipo : String? = null
 
@@ -29,5 +30,9 @@ class Usuario : Serializable {
 
     @OneToMany(mappedBy = "usuario")
     var permisos: Set<Permiso> = HashSet()
+
+    @ManyToOne(cascade = [(CascadeType.ALL)])
+    @JoinColumn(name = "id_entidad")
+    var entidad: Entidad? = null
 
 }
